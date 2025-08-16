@@ -1,0 +1,38 @@
+/* ===== ESTILO GERAL DO CORPO DA PÁGINA ===== */
+body {
+    font-family: Courier; /* Define a fonte como Courier */
+    color: #ca05ac; /* Define a cor do texto para azul escuro */
+    background-color: #f2f6fc; /* Define um fundo suave azul claro */
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0; /* Remove o espaçamento interno padrão */
+}
+
+/* ===== ESTILO DO CONTAINER ===== */
+.container {
+    text-align: center; /* Centraliza texto e imagens dentro do container */
+    margin-top: 50px; /* Cria um espaço entre o topo da página e o conteúdo */
+}
+
+
+
+/* ===== ESTILO DO TÍTULO ===== */
+h1 {
+    font-size: 32px; /* Aumenta o tamanho da fonte para destaque */
+    margin-bottom: 20px; /* Cria um espaço abaixo do título */
+}
+
+/* ===== ESTILO DA FOTO ===== */
+.foto {
+    width: 200px; /* Define a largura da foto */
+    height: 200px; /* Define a altura (para manter formato quadrado antes de arredondar) */
+    border-radius: 50%; /* Arredonda as bordas até formar um círculo */
+    object-fit: cover; /* Garante que a foto preencha todo o círculo sem distorcer */
+    border: 3px solid #7d024e; /* Coloca uma borda azul escura ao redor da foto */
+    margin-bottom: 20px; /* Espaço abaixo da foto */
+}
+
+/* ===== ESTILO DO PARÁGRAFO ===== */
+p {
+    font-size: 22px; /* Aumenta o tamanho da fonte para melhor leitura */
+    text-align: center; /* Centraliza texto e imagens dentro do container */
+}
